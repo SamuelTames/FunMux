@@ -4,7 +4,7 @@
 #include <unistd.h>
 
 // - Inspired by a past blog post covering fast userspace concurrency.
-// - Scheduling is a bit primative.
+// - Scheduling is a bit primitive.
 // - TODO: handle error conditions.
 // - TODO: full documentation.
 // - TODO: ...rewrite in a rubust manner.
