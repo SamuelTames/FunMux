@@ -16,8 +16,8 @@ f(void * context)
 
     for (int i = 0; i < 6; i++) {
         read(me, &c, sizeof c);
-        write(STDIN_FILENO, &"             "
-                             "             ", id*2);
+        write(STDOUT_FILENO, &"             "
+                              "             ", id*2);
         printf("Fiber:%d - %c\n", id, c);
         fiber_yield();
     }
